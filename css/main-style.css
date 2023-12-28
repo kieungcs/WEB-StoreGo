@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+ul{list-style: none; margin: 0; padding: 0}
+a{text-decoration: none}
+
+@media (max-width: 992px){
+	.welcom .contact{display: flex; justify-content: space-between}
+	.welcom .social {justify-content: center !important}
+}
+header .navbar {background-color: rgba(51,51,51,0.4); z-index: 2}
+header .contact {font-size: 13px; color: #fff; display: flex}
+header .contact li {padding-right: 20px; line-height: 50px}
+header .social li 
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #E5E5E5;
+	text-align: center;
+	margin-right: 7px;
+	margin-top: 10px;
+}
+header .social li a {color: #333333; font-size: 13px; line-height: 30px}
+header nav .navbar-nav li {margin: 0 20px}
+header nav .navbar-nav .nav-link 
+{
+	color: var(--bs-white);
+}
+
+footer {background-color: rgba(51,51,51,0.4)}
+.text-gray {color: var(--bs-gray)}
+footer .info p {color: #666; margin-top: 25px; line-height: 30px; letter-spacing: 0.5px}
+footer h5 {font-weight: bold; margin-bottom: 30px; position: relative; margin-top: 8px}
+footer h5::before
+{
+	position: absolute; bottom: -5px; left: 0;
+	content: "";
+	width: 20%; height: 2px; background: #333333; 
+}
+footer ul li {margin-bottom: 7px}
+footer ul li a {color: #666;}
+footer .contacts p {line-height: 30px; color: #666}
+footer .contacts p i {padding-right: 7px}
+footer .social li {margin-right: 15px; width: 45px; height: 45px; border-radius: 10px; text-align: center; line-height: 45px}
+footer .social li:nth-child(1) {background-color: #1877F2}
+footer .social li:nth-child(2) {background-color: #B70000}
+footer .social li:nth-child(3) {background-color: #000000}
+footer .social li:nth-child(4) {background-image: linear-gradient(45deg, #FEC862, #F77430, #DC2E7B, #703BBB)}
+footer .social li:nth-child(5) {background-color: #1D9BF0}
+footer .social li a {color: #fff; font-size: 20px}
+
+/*index*/
+/*.bg-page {position: relative; overflow: hidden}*/
+.bg-page #banner {margin-top: -62px}
+@media (max-width: 992px){
+	.bg-page #banner {margin-top: 0}
+}
+.bg-page .carousel-caption {position: absolute; width: 100%; top: 15%; left: 10%}
+@media (max-width: 768px)
+{
+	.bg-page .carousel-caption {position: absolute; width: 100%; top: 1%; left: 4%;}
+	.btn {font-size: 0.5rem}
+}
+.bg-page .carousel-caption h4 {font-size: 2vw}
+.bg-page .carousel-caption h1 {font-size: 5.5vw}
+.bg-page .carousel-caption h5 {font-size: 1vw}
+.bg-page .carousel-caption p {font-size: 0.5vw}
+.bg-page .caption {font-family: 'Lemonada'; font-size: 4vw; color: #333}
+.bg-page .caption span {font-family: 'Baloo Bhaijaan 2'; color: var(--bs-third); font-size: 4.5vw}
+
+.section-title 
+{
+	margin: 70px 0 30px 0;
+	font-family: 'Baloo Bhaijaan 2';
+	text-align: center
+}
+
+#category .card .card-img-overlay {padding: 0;}
+#category .card .card-img-overlay p{text-align: center; color: #fff; background-color: rgba(51,51,51,0.5); font-size: 20px; margin: 0}
+
+.bg-dark-blur {background: rgba(51,51,51,0.5)}
+.text-yellow {color: var(--bs-yellow)}
+
+#flash-deal .content
+{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/At-vero-eos-et-accusamus-1200x789_t.jpg");
+	background-repeat: repeat;
+}
+
+.giacu {color: var(--bs-gray-500); text-decoration: line-through}
+.price
+{
+	display: flex;
+	gap: 100px;
+}
+
+#pr-sale img {width: 100%; height: 306px}
+.tag-sale {width: 40px; height: 40px; background-color: var(--bs-secondary); border-radius: 50%; text-align: center; line-height: 40px; color: #fff; top: 5px; left: 5px; position: absolute; font-size: 13px}
+
+.card > .btn {}
+.card > .sub-view {position: absolute; top: 0; left: 120%}
+.card > .sub-view > ul > li
+{
+	width: 30px;
+	height: 30px;
+	box-shadow: 0 0 5px 0 #666;
+	margin: 5px;
+	text-align: center;
+	line-height: 30px
+}
+.card > .sub-view > ul > li > a{color: #666}
+.card:hover .sub-view
+{
+	left: 77%;
+	transition: all 0.5s linear
+}
+@media (max-width: 1024px)
+{
+	.card > .sub-view {position: absolute; top: 0; left: 77%}
+}
+
+.sub-banner
+{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/The-new-lease-of-life-1400x1722_t.jpg"); background-repeat: repeat;
+	padding: 5vw 0
+}
+.sub-banner h3 {text-transform: uppercase; font-weight: bold; font-size: calc(10px + 1vw)}
+.sub-banner .caption {font-family: 'Lemonada'; font-size: calc(35px + 2vw); color: #fff}
+.sub-banner .caption span {font-family: 'Baloo Bhaijaan 2'; color: var(--bs-primary); font-size: calc(45px + 2vw)}
+.sub-banner p {color: #D5D5D5; padding: 0 20vw 2vw 20vw; font-size: calc(1rem + 0.1vw)}
+.sub-banner .btn {background: var(--bs-secondary); color: #fff; padding: calc(0.5vw + 1px) calc(1vw + 20px); font-size: calc(1rem + 0.2vw)}
+
+#product .nav-item .nav-link {margin: 0 15px}
+
+@media (max-width: 525px)
+{
+	#pr-hot .card .sub-view {position: absolute; top:0; left: 70%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
