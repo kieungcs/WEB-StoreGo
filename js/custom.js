@@ -2,8 +2,8 @@ $('#banner').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-//	autoplay: true,
-//	autoplayTimeout: 3000,
+	autoplay: true,
+	autoplayTimeout: 4000,
     responsive:{
         0:{
             items:1
@@ -73,4 +73,24 @@ $('#pr-sale').owlCarousel({
     }
 })
 
+$('#blog-item').owlCarousel({
+    loop:true,
+    margin:12,
+    nav:false,
+	autoplay: true,
+	autoplayTimeout: 4000,
+	center: true,
+    responsive:{
+        0:{
+            items:2
+        },
+        700:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
 
+new WOW().init();

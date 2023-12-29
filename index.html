@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.default.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-hover.css">
 	<link rel="stylesheet" href="css/main-style.css">
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -49,13 +50,13 @@
 				<div class="navbar-collapse collapse" id="menu">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link hvr-underline-from-center" href="#">TRANG CHỦ</a>
+							<a class="nav-link hvr-underline-from-center" href="index.html">TRANG CHỦ</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link hvr-underline-from-center" href="#">KHUYẾN MÃI</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link hvr-underline-from-center" href="#">SẢN PHẨM</a>
+							<a class="nav-link hvr-underline-from-center" href="product.html">SẢN PHẨM</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link hvr-underline-from-center" href="#">TIN TỨC</a>
@@ -65,7 +66,9 @@
 						</li>
 					</ul>
 					<div class="sub-nav">
-						<button class="btn hvr-ripple-in" type="button"><i class="fa-solid fa-search text-white"></i></button>
+						<button class="btn hvr-ripple-in" type="button">
+							<i class="fa-solid fa-search text-white"></i>
+						</button>
 						<button class="btn hvr-ripple-in" type="button"><i class="fa-solid fa-cart-shopping text-white"></i></button>
 						<button class="btn hvr-ripple-in" type="button"><i class="fa-solid fa-user text-white"></i></button>
 					</div>
@@ -75,7 +78,7 @@
 	  
 		<div class="bg-page">
 			<!-- InstanceBeginEditable name="banner" -->
-			<div class="owl-carousel owl-theme" id="banner">
+			<div class="owl-carousel owl-theme banner" id="banner">
 				<div class="item">
 					<img src="images/Main-banner.jpg" alt="">
 					<div class="carousel-caption">
@@ -160,8 +163,20 @@
 		<section class="about" style="margin: 70px 0 30px 0">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 mb-3">
-						<img src="images/Consequunt-magni-dolores-1200x789_t.jpg" alt="" class="w-100">
+					<div class="col-md-6 mb-3" style="overflow: hidden">
+						<div class="box2">
+                        <img class="pic-1" src="images/Et-quasi-architecto-beate-1200x789_t.jpg">
+                        <div class="box-content">
+                            <div class="inner-content">
+                                <h3 class="title">STORE GO</h3>
+                                <span class="post">Shopping-Convenience-Safety</span>
+                                <ul class="icon">
+                                    <li class="text-center"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="text-center"><a href="#"><i class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 					</div>
 					<div class="col-md-6">
 						<h3 class="text-secondary pb-3">ABOUT US</h3>
@@ -404,7 +419,7 @@
 				</div>
 				<div class="row" style="overflow: hidden">
 					<div class="col-lg-4 col-xl-3 col-6">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
                             <div class="tag-sale">SALE</div>
                             <img src="images/1-270x250.jpg" alt="" class="card-img-top w-100" style="">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
@@ -429,7 +444,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-xl-3 col-6">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
                             <img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
                                 <i class="fa-solid fa-star"></i>
@@ -453,7 +468,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
                             <img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
                                 <i class="fa-solid fa-star"></i>
@@ -477,7 +492,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
 							<div class="tag-sale">SALE</div>
                             <img src="images/7-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
@@ -502,7 +517,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
                             <div class="tag-sale">SALE</div>
                             <img src="images/2-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
@@ -514,7 +529,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h6 class="card-title text-start">Bình gốm thiết kế hiện đại màu hồng</h6>
-                                <p class="price text-secondary text-end">1.490.000 <span class="giacu">2.100.000</span></p>
+                                <p class="text-secondary">1.490.000</p>
                                 <a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
                             </div>
                             <div class="card-img-overlay sub-view">
@@ -527,7 +542,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
 							<div class="tag-sale">SALE</div>
                             <img src="images/8-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
@@ -552,7 +567,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
                             <img src="images/4-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
                                 <i class="fa-solid fa-star"></i>
@@ -576,7 +591,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-6 col-xl-3">
-						<div class="card my-3">
+						<div class="card my-3" style="overflow: hidden">
 							<div class="tag-sale">SALE</div>
                             <img src="images/9-270x250.jpg" alt="" class="card-img-top w-100">
                             <div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
@@ -604,10 +619,10 @@
 			</div>
 		</section>
 		<div class="sub-banner text-center container-fluid">
-			<h3>Trên cả thiết kế và thi công</h3>
-			<h2 class="caption my-4">beyond <span>Design</span> and <span>Build</span></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id enim repellendus sunt, facere vitae temporibus beatae deleniti quis repudiandae nesciunt neque velit unde, accusantium aut maiores aliquid voluptates veritatis rerum?</p>
-			<a href="#"><button type="button" class="btn">Mua Ngay</button></a>
+			<h3 class="wow bounceInDown" data-wow-duration="1s">Trên cả thiết kế và thi công</h3>
+			<h2 class="caption my-4 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">beyond <span>Design</span> and <span>Build</span></h2>
+			<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id enim repellendus sunt, facere vitae temporibus beatae deleniti quis repudiandae nesciunt neque velit unde, accusantium aut maiores aliquid voluptates veritatis rerum?</p>
+			<a href="#"><button type="button" class="btn wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="2.5s">Mua Ngay</button></a>
 		</div>
 		<section id="product" style="margin: 70px 0 30px 0">
 			<div class="section-title">
@@ -615,7 +630,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
 			<div class="container">
-				<ul class="nav nav-pills">
+				<ul class="nav nav-pills border-bottom">
   					<li class="nav-item">
     					<a class="nav-link active text-center" data-bs-toggle="pill" href="#pk">
 							<img src="images/category-3.png" alt="">
@@ -648,12 +663,1016 @@
   					</li>
 				</ul>
 				<!-- Tab panes -->
-				<div class="tab-content">
-					<div class="tab-pane container active" id="pk">...</div>
-					<div class="tab-pane container fade" id="pn">...</div>
-					<div class="tab-pane container fade" id="pa">...</div>
-					<div class="tab-pane container fade" id="vp">...</div>
-				  	<div class="tab-pane container fade" id="pki">...</div>
+				<div class="tab-content mt-3">
+					<div class="tab-pane container active" id="pk">
+						<div class="row" style="overflow: hidden">
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/1-270x250.jpg" alt="" class="card-img-top w-100" style="">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại</h6>
+										<p class="text-secondary">1.790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/7-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế ames 4 chân gỗ màu vàng </h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/2-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại - hồng</h6>
+										<p class="text-secondary">1.490.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/8-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế emas gỗ 4 chân màu xanh</h6>
+										<p class="text-secondary">1.290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<img src="images/4-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp luxury</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/9-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Đồng hồ nữ thiết kế hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane container fade" id="pn">
+						<div class="row" style="overflow: hidden">
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/2-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại - hồng</h6>
+										<p class="text-secondary">1.490.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/8-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế emas gỗ 4 chân màu xanh</h6>
+										<p class="text-secondary">1.290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<img src="images/4-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp luxury</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/9-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Đồng hồ nữ thiết kế hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane container fade" id="pa">
+						<div class="row" style="overflow: hidden">
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/1-270x250.jpg" alt="" class="card-img-top w-100" style="">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại</h6>
+										<p class="text-secondary">1.790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane container fade" id="vp">
+						<div class="row" style="overflow: hidden">
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/7-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế ames 4 chân gỗ màu vàng </h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/2-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại - hồng</h6>
+										<p class="text-secondary">1.490.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/8-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế emas gỗ 4 chân màu xanh</h6>
+										<p class="text-secondary">1.290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/1-270x250.jpg" alt="" class="card-img-top w-100" style="">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại</h6>
+										<p class="text-secondary">1.790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/9-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Đồng hồ nữ thiết kế hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				  	<div class="tab-pane container fade" id="pki">
+						<div class="row" style="overflow: hidden">
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/1-270x250.jpg" alt="" class="card-img-top w-100" style="">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại</h6>
+										<p class="text-secondary">1.790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xl-3 col-6">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/3-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/4-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ vệ sinh phòng bếp luxury</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/9-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Đồng hồ nữ thiết kế hiện đại</h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<img src="images/5-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bộ 3 chậu sen đá mini decor phòng</h6>
+										<p class="text-secondary">790.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/7-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế ames 4 chân gỗ màu vàng </h6>
+										<p class="text-secondary">290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/2-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-alt"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Bình gốm thiết kế hiện đại - hồng</h6>
+										<p class="text-secondary">1.490.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 col-xl-3">
+								<div class="card my-3" style="overflow: hidden">
+									<div class="tag-sale">SALE</div>
+									<img src="images/8-270x250.jpg" alt="" class="card-img-top w-100">
+									<div class="card-img-overlay text-center text-yellow" style="position: absolute; bottom: 125px">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-regular fa-star"></i>
+									</div>
+									<div class="card-body text-center">
+										<h6 class="card-title text-start">Ghế emas gỗ 4 chân màu xanh</h6>
+										<p class="text-secondary">1.290.000</p>
+										<a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+									</div>
+									<div class="card-img-overlay sub-view">
+										<ul class="d-flex flex-column">
+											<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+											<li><a href="#"><i class="fas fa-heart"></i></a></li>
+											<li><a href="#"><i class="fas fa-search-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="service" style="margin: 70px 0 30px 0">
+			<div class="section-title">
+				<h3>Our Service <span class="text-secondary">24/7</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-6 col-lg-3 text-center text-gray item-service pt-2">
+						<img src="images/free-delivery 1.png" alt="">
+						<h5 class="py-3">Miễn Phí Vận Chuyển</h5>
+						<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi culpa rerum aliquam facere.</p>
+					</div>
+					<div class="col-6 col-lg-3 text-center text-gray item-service pt-2">
+						<img src="images/free-delivery 1-1.png" alt="">
+						<h5 class="py-3">Tư Vấn Thiết Kế</h5>
+						<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi culpa rerum aliquam facere.</p>
+					</div>
+					<div class="col-6 col-lg-3 text-center text-gray item-service pt-2">
+						<img src="images/free-delivery 1-2.png" alt="">
+						<h5 class="py-3">Lắp Đặt Bảo Trì</h5>
+						<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi culpa rerum aliquam facere.</p>
+					</div>
+					<div class="col-6 col-lg-3 text-center text-gray item-service pt-2">
+						<img src="images/free-delivery 1-3.png" alt="">
+						<h5 class="py-3">Giải Đáp 24/7</h5>
+						<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi culpa rerum aliquam facere.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="blogs">
+			<div class="section-title">
+				<h3>News <span class="text-secondary">Event</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+			<div class="container">
+				<div class="row owl-carousel owl-theme" id="blog-item">
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/The-Most-Fashionable-City-In-the-US-1-1400x1700_t.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/Spring-wardrobe-must-haves-1-1400x1700_t.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/6-328x395.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/4-328x395.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/7-328x395.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card border-0 p-0">
+							<img src="images/14-328x395.jpg" alt="">
+							<div class="date text-center">
+								<h1>03</h1> 
+								<div class="month">Tháng 12</div>
+							</div>
+							<div class="comment bg-dark-blur w-100">
+								<ul class="d-flex justify-content-between">
+									<li><i class="fa-solid fa-comments"></i> 23k</li>
+									<li><i class="fa-solid fa-heart"></i> 32k</li>
+								</ul>
+							</div>
+						</div>
+						<div class="my-3 desc">
+							<h5>Why Are Creative People Called Weird?</h5>
+							<p>Tech Sector Faces Regulatory Scrutiny, Stocks Experience Sell-Off Regulatory Scrutiny</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
